@@ -24,6 +24,7 @@ int main(int args, char * argv[])
 			network.addEdge(x, y, dist);
 		}
 		cout << network.simulateDistribution(0) << endl;	
+		cout << network.zhuliu(0) << endl;
 	}
 	return 0;
 }

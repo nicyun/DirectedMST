@@ -55,7 +55,7 @@ double Simulator::getMST(int root)
 		if(i == root) continue;
 		int j = nodes[i].getBestEdge(root);
 		if(j == -1) return -1.0;
-		cout << j << " " << i << " " << graph[j][i] << endl;
+		//cout << j << " " << i << " " << graph[j][i] << endl;
 		res += graph[j][i];
 	}
 	return res;

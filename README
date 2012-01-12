@@ -19,6 +19,6 @@ attention that nodeID starts from 0
 
 ####################################
 output format:
-for each test case, output contains num_nodes lines
-the first num_nodes-1 lines are edges in the determined MST
-the last line is the aggregated weight of the MST
+for each test case, output contains 2 lines
+the first line is the result produced by the simulation of the distributed algorithm
+the second line is the result produced by the centralized algorithm
